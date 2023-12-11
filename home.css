@@ -799,7 +799,113 @@ span {
 
     }
 
+    .about .row{
+        flex-direction: column;
+    }
+    .about img{
+        max-width: 300px;
+    }
+    .menu{
+        margin: 150px 0;
+    }
+    .menu .content-menu .box{
+        padding: 3rem;
+    }
+    .menu .content-menu .box img{
+        height: 5rem;
+    }
+    .menu .content-menu .box{
+        grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    }
+    .products .content-products img{
+        height: 10rem;
+    }
+    .products .content-products .box .icons a{
+        width: 2rem;
+        height: 2rem;
+        font-size: 1rem;
+    }
+    .products .content-products{
+        margin: 100px 50px;
+        grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    }
+    .products .content-products .box .content-box .stars i{
+        font-size: 1rem;
+    }
+    .products .content-products .box .content-box .stars i{
+        font-size: 1.5rem;
+    }
+    .products .content-products .box .content-box .price span{
+        font-size: 1rem;
+    }
+    .products .content-products .box .content-box .price {
+        font-size: 1.5rem;
+    }
+    .review .content-review .box h3{
+        font-size: 1rem;
+    }
+    .review .content-review{
+        margin: 100px 50px;
+   
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    }
+    .review .content-review .quote{
+        max-width: 100px;
+    }
+    .review .content-review .box{
+        padding: 1.5rem 1rem;
+    }
+    .review .content-review .box .user{
+        width: 4rem;
+        height: 4rem;
+    }
+    .contact .row form h3{
+        font-size: 2rem;
+    }
+    .contact .row form {
+        padding: 2rem 1rem;
+    }
+    .contact .row form .input-box input {
+        padding: 1rem;
+        font-size: 1rem;
+    }
+    .blogs .content-blogs .box .content-box .title {
+        font-size: 1rem;
+        line-height: 0%;
+    }
+    .heading{
+        font-size: 30px;
+    }
+
+
 }
+
+
+
+
+
+@media(min-width:320px) and (max-width:480px){
+    .heading{
+        font-size: 30px;
+    }
+   .contact .row {
+    flex-direction: column;
+   }
+   .contact .row form .input-box span {
+    font-size: 1rem;
+   }
+   .contact .row form .input-box input {
+    width: auto;
+   }
+
+   .footer{
+    display: flex;
+    flex-direction: column;
+   }
+
+}
+
+
 
 
 /* end responsive design */
