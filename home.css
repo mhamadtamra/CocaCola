@@ -462,7 +462,7 @@ span {
 
 /*start review section*/
 .review .content-review {
-    margin: 100px;
+    margin: 100px ;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap: 1.5rem;
@@ -594,7 +594,7 @@ span {
 
 
 .blogs .content-blogs {
-    margin: 100px;
+    margin: 100px 50px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     gap: 1.5rem;
